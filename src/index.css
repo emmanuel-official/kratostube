@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-900 text-slate-200 min-h-screen overflow-x-hidden selection:bg-violet-500/30;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
